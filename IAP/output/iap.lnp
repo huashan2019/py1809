@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\output\startup_stm32f072xb.o"
+".\output\main.o"
+".\output\stm32f0xx_it.o"
+".\output\flash_if.o"
+".\output\iap.o"
+".\output\uart2.o"
+".\output\bsp.o"
+--strict --scatter ".\output\iap.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\iap.map" -o .\output\iap.axf

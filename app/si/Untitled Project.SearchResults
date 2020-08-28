@@ -1,0 +1,9 @@
+---- rRdsUTCHour Matches (8 in 2 files) ----
+Rds.c (e:\project\nansheng\app\tda7786):	UTCHour = rRdsUTCHour;
+Rds.c (e:\project\nansheng\app\tda7786):		if(UTCHour >= i)	rRdsUTCHour = UTCHour-i;
+Rds.c (e:\project\nansheng\app\tda7786):		else	rRdsUTCHour = UTCHour+24-i;
+Rds.c (e:\project\nansheng\app\tda7786):		rRdsUTCHour = i;
+Rds.c (e:\project\nansheng\app\tda7786):		armtime.hour= rRdsUTCHour;
+Rds.c (e:\project\nansheng\app\tda7786):		if(rRdsCurSR2&0x01)	rRdsUTCHour = 0x10;
+Rds.c (e:\project\nansheng\app\tda7786):		else	rRdsUTCHour = 0x00;
+RDS.h (e:\project\nansheng\app\tda7786):RDS_EXT	uchar 		rRdsUTCHour;

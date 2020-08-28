@@ -1,0 +1,16 @@
+.\output\bsp.o: source\bsp.c
+.\output\bsp.o: source\config.h
+.\output\bsp.o: source\stm32f0xx.h
+.\output\bsp.o: source\stm32f072xb.h
+.\output\bsp.o: source\core_cm0.h
+.\output\bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\bsp.o: source\core_cmInstr.h
+.\output\bsp.o: source\cmsis_armcc.h
+.\output\bsp.o: source\core_cmFunc.h
+.\output\bsp.o: source\system_stm32f0xx.h
+.\output\bsp.o: source\stm32f0xx_it.h
+.\output\bsp.o: source\stm32f0xx_rcc.h
+.\output\bsp.o: source\uart2.h
+.\output\bsp.o: source\flash_if.h
+.\output\bsp.o: source\iap.h
+.\output\bsp.o: source\bsp.h

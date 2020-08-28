@@ -1,0 +1,108 @@
+Dependencies for Project 'iap', Target 'IAP': (DO NOT MODIFY !)
+F (.\source\startup_stm32f072xb.s)(0x5A38C567)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F072xB SETA 1"--list .\list\startup_stm32f072xb.lst --xref -o .\output\startup_stm32f072xb.o --depend .\output\startup_stm32f072xb.d)
+F (.\source\main.c)(0x5BAED74D)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\stm32f0xx_it.c)(0x5BAB00A7)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\stm32f0xx_it.o --omf_browse .\output\stm32f0xx_it.crf --depend .\output\stm32f0xx_it.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\flash_if.c)(0x5BA35A40)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\flash_if.o --omf_browse .\output\flash_if.crf --depend .\output\flash_if.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\iap.c)(0x5A38C567)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\iap.o --omf_browse .\output\iap.crf --depend .\output\iap.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\uart2.c)(0x5A38C568)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\uart2.o --omf_browse .\output\uart2.crf --depend .\output\uart2.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\bsp.c)(0x5A38C566)(-c --cpu Cortex-M0 -g -W -O1 --apcs=interwork -I .\source-I.\RTE\_IAP-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F072xB-o .\output\bsp.o --omf_browse .\output\bsp.crf --depend .\output\bsp.d)
+I (source\config.h)(0x5A38C567)
+I (source\stm32f0xx.h)(0x5A38C568)
+I (source\stm32f072xb.h)(0x5A38C568)
+I (source\core_cm0.h)(0x5A38C567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (source\core_cmInstr.h)(0x5A38C567)
+I (source\cmsis_armcc.h)(0x5A38C566)
+I (source\core_cmFunc.h)(0x5A38C567)
+I (source\system_stm32f0xx.h)(0x5A38C568)
+I (source\stm32f0xx_it.h)(0x5A38C568)
+I (source\stm32f0xx_rcc.h)(0x5A38C568)
+I (source\uart2.h)(0x5A38C568)
+I (source\flash_if.h)(0x5BA35A4C)
+I (source\iap.h)(0x5A38C567)
+I (source\bsp.h)(0x5A38C566)
+F (.\source\bsp.h)(0x5A38C566)()
+F (.\source\config.h)(0x5A38C567)()
+F (.\source\core_cm0.h)(0x5A38C567)()
+F (.\source\core_cmFunc.h)(0x5A38C567)()
+F (.\source\core_cmInstr.h)(0x5A38C567)()
+F (.\source\stm32f0xx.h)(0x5A38C568)()
+F (.\source\system_stm32f0xx.h)(0x5A38C568)()
+F (.\source\stm32f0xx_it.h)(0x5A38C568)()
+F (.\source\flash_if.h)(0x5BA35A4C)()
+F (.\source\iap.h)(0x5A38C567)()

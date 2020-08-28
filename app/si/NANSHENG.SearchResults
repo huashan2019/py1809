@@ -1,0 +1,4 @@
+---- AD_SW2_Info.StudyNum Matches (3 in 2 files) ----
+Core.c (e:\project\nansheng\sourceback\release\201901182\app\source):			if(GetKeyNum((UICC_KEY_CODE)armkey.keybuff[1],&AD_SW2_Info.StudyNum,AD_SW2_MAX_NUM,AD_SW_Tab))
+Swc.c (e:\project\nansheng\sourceback\release\201901182\app\source):			if(GetKeyData2(AD_SW2_CHANNEL,&AD_SW_Tab2[AD_SW2_Info.StudyNum].KeyADC_Data))
+Swc.c (e:\project\nansheng\sourceback\release\201901182\app\source):				AD_SW_Tab2[AD_SW2_Info.StudyNum].KeyStudyFlag = 2;

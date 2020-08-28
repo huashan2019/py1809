@@ -1,0 +1,3 @@
+---- SetArmRstHi Matches (2 in 2 files) ----
+Bsp.h (source):#define SetArmRstHi();			{GPIOC->MODER &= 0xF3FFFFFF; GPIOC->MODER |= 0x04000000;GPIOC->BSRR |= BIT13;}
+Main.c (source):			SetArmRstHi();
